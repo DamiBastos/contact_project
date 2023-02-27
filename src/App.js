@@ -1,13 +1,12 @@
 import './App.css';
-import Clock from './components/clock';
-import ContactListComponent from './components/contactListComponent';
+// import Clock from './components/clock';
+import ContactList from './components/contactList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Clock></Clock>
-      </header>
+        {/* <Clock></Clock> */}
+        <ContactList></ContactList>
     </div>
   );
 }
